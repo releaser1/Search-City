@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
+.header-element {
+    background-color: rgb(14, 1, 1);
+    display: grid;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.motto-element {
+    background-color: darkslateblue;
+    /* padding-left: 5%;
+    padding-right: 5%; */
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.motto-element span {
+    color: hsl(40, 100%, 97%);
+    font-weight: 400;
+    font-size: 1.5em;
+    font-family: 'Amaranth', sans-serif;
+}
+
+
+.dropdown-element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 1.4em;
+    font-family: 'Fugaz One', cursive;
+    cursor: pointer;
+}
+
+.dropdown-element a {
+    position: relative;
+    display: inline-block;
+    /* color: royalblue; */
+    overflow: hidden;
+    background: linear-gradient(to right, midnightblue, midnightblue 50%, royalblue 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+}
+
+.dropdown-element a:hover {
+    background-position: 0 100%;
+}
+
+

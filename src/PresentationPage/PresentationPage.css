@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+.presentation-component {
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: cadetblue;
+    position: relative;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.presentation-component img{
+    height: 90vh;
+    text-align: center;
+    
+}
+
+.page-baner {
+    background-color: rgb(97, 97, 134);
+    position: absolute;
+    width: 70%;
+    height: 40%;
+    border: 2px solid white;
+    /* z-index: 2; */
+    opacity: 30%;
+    bottom: 0;
+    margin-bottom: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-baner p {
+    font-weight: 600 bold;
+    color: white;
+    font-size: 7em;
+    /* font-family: 'New Tegomin', serif; */
+    font-family: 'Permanent Marker', cursive;
+    
+}
+

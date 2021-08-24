@@ -1,0 +1,86 @@
+.main-component {
+ 
+    background-color: cadetblue;
+    padding-left: 5%;
+    padding-right: 5%;
+    max-height: fit-content;
+}
+
+
+.second-component {
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+}
+
+
+.input-search-first {
+    
+    border: 5% solid;
+    border-radius: 4%;
+    display: block;
+    width: 80%;
+    background-clip: padding-box;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    background-color: transparent;
+    color: inherit;
+    padding: 10px 12px;  
+    margin-top: 2%; 
+    font-weight: 200;
+    font-size: x-large
+    
+}
+
+
+
+.parent-card {
+    padding: 1em;
+    border: .2em solid black;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+
+}
+
+.parent-card-child {
+    margin-top: 2%;
+    width: 23%;
+    height: 22em;
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    text-align: center;
+    border: .3em solid #3D9970;
+    border-radius: 5%;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+}
+
+
+.parent-card-child:hover {
+    transform: scale(1.05);
+  }
+
+
+.parent-card-child img {
+    width: 90%;
+    height: 50%;
+    margin: 0 auto;
+}
+
+.add-btn {
+    font-size: 1.2em;
+    font-weight: 400;
+    font-family: 'Permanent Marker', cursive;
+    background-color:slategray;
+    cursor: pointer;
+}
+
+.add-btn:hover {
+    color: whitesmoke;
+    background-color: steelblue
+}
